@@ -1,20 +1,21 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import "../App.css"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Nav.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons"
 
 
 const Nav=()=>{
     return(
         <div >
+           
             <ul className="Navbar">
                 <li>
                     <NavLink to="/">Home</NavLink>
-            {/* <FontAwesomeIcon icon={f0c9}/> */}
            
                 </li>
                 <li>
-                    <NavLink to="/advanced">What is Advanced</NavLink>
+                    <NavLink to="/about">What is Advanced</NavLink>
                 </li>
                 <li>
                     <NavLink to="/contact">Contact</NavLink>

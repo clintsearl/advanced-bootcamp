@@ -1,0 +1,13 @@
+.Navbar{
+    min-height: 5vh;
+    list-style-type:none;
+   display:flex;
+   align-items: flex-end;
+   flex-direction: column;
+  
+  }
+  li > a{
+          color:white;
+          text-decoration: none;
+          
+        }

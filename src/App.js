@@ -3,12 +3,15 @@ import {Switch, Route} from 'react-router-dom'
 import './App.css';
 import Nav from './components/Nav';
 import Landing from './components/Landing';
+import About from './components/About'
 
 function App() {
   return (
     <div className="App">
-     <Nav/>
      <Switch>
+       <Route path="/about">
+         <About/>
+       </Route>
        <Route path="/">
        <Landing/>
        </Route>

@@ -1,6 +1,6 @@
 import React from "react"
 
-const Advanced =() =>{
+const About =() =>{
     return(
         <div>
             <h1>What is this?</h1>
@@ -8,4 +8,4 @@ const Advanced =() =>{
     )
 }
 
-export default Advanced
+export default About

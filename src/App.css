@@ -1,32 +1,45 @@
-.Navbar{
-  min-height: 5vh;
-  list-style-type:none;
- display:flex;
- align-items: flex-end;
- flex-direction: column;
-
-}
-li > a{
-        color:red;
-        text-decoration: none;
-        
-      }
-
-
-header {
+.hero {
   background-image: url(./hero.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  
+}
+.hello{
+  font-size: calc(10px + 2vmin);
+  display:inline-flex;
+  max-width: 50vw;
+  flex-direction: column;
+  margin-left: 3vw;
 }
 
+content{
+  width: 80vw;
+  margin:10vw;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50vh 50vh;
+}
+.first-row {
+  
+  text-align: center;
+}
+.second-row {
+  text-align: center;
+  grid-column-start: span 2;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(77, 224, 138);
+  height: 10vh;
+}
