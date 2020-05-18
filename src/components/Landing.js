@@ -1,6 +1,7 @@
 import React from "react"
 import "../App.css"
 import Nav from "./Nav"
+import Contact from "./Contact"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -31,6 +32,9 @@ function Landing(){
             <h3>Wild At Heart</h3>
               <p>Small paragraph about John Eldridge and some core ideas of the larger story</p>
               </div>
+            <div>
+              <Contact />
+            </div>
           </content>
           <footer>
             <p>This is the footer with some contact info on it</p>
