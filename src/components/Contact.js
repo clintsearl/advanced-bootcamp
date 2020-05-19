@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import emailjs from 'emailjs-com'
-
+import "./Contact.css"
 
 const Contact =()=>{
 
@@ -9,7 +9,7 @@ const Contact =()=>{
     }
     const sendEmail=(e)=> {
         e.preventDefault();
-        emailjs.sendForm('default_service', 'contact_form', e.target, 'user_xpP72yPUdaJz3dFKUFjSM')
+        emailjs.sendForm('default_service', 'contact_form', e.target, 'user_xpP72yPUdaJz3dFKUFjS')
           .then((result) => {
              console.log(result.text);
           }, (error) => {
@@ -24,7 +24,7 @@ const Contact =()=>{
 
 
     return(
-        <div>
+        <div className="contact">
             <form id="contact-form" onSubmit={sendEmail}>
                 
                 <label>Name</label>
@@ -32,11 +32,13 @@ const Contact =()=>{
                 <label>Email</label>
                 <input type="email" name="email" required/>
                 <label>Interest Level
+                    <br/>
                 <input type="radio" name="interest" value="I'm ready, sign me up!"/><label>I'm ready, sign me up!</label>
+                <br/>
                 <input type="radio" name="interest" value="Love to hear More"/><label>Love to hear more!</label></label><br/>
                 <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send"/>
+                <textarea name="message"/>
+                <input type="submit" value="Send" className="submit"/>
             </form>
         </div>
     )

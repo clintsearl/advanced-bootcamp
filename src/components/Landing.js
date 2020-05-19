@@ -32,10 +32,10 @@ function Landing(){
             <h3>Wild At Heart</h3>
               <p>Small paragraph about John Eldridge and some core ideas of the larger story</p>
               </div>
+          </content>
             <div>
               <Contact />
             </div>
-          </content>
           <footer>
             <p>This is the footer with some contact info on it</p>
           </footer>
