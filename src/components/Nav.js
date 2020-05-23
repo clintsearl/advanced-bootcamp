@@ -18,7 +18,7 @@ const Nav=()=>{
                     <NavLink to="/about">What is Advanced</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact">Contact</NavLink>
+                    {/* <link href=".contact">Contact</link> */}
                 </li>
         </ul>
         </div>

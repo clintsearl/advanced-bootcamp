@@ -14,7 +14,7 @@ function Landing(){
           <FontAwesomeIcon icon={faBars} className="scrolling"/>
         </header>
         <div className="hello">
-          <h1>Utah's Advanced Warrior Heart Bootcamp</h1>
+          <h1>Utah's&nbsp;Advanced Warrior Heart Bootcamp</h1>
           <h3>This grabs your attention and makes you want to keep reading.</h3>
           <FontAwesomeIcon icon={faCoffee}/>
           </div>
