@@ -10,9 +10,6 @@ function App() {
   return (
     <div className="App">
      <Switch>
-       <Route path="/about">
-         <About/>
-       </Route>
        <Route exact path="/">
        <Landing/>
        </Route>

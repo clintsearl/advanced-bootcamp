@@ -8,14 +8,14 @@ import {faBars} from "@fortawesome/free-solid-svg-icons"
 const Nav=()=>{
     return(
         <div >
-           
+           <FontAwesomeIcon icon={faBars} className="scrolling"/>
             <ul className="Navbar">
                 <li>
                     <NavLink to="/">Home</NavLink>
            
                 </li>
                 <li>
-                    <NavLink to="/about">What is Advanced</NavLink>
+                    <button href=".hero">Register Now</button>
                 </li>
                 <li>
                     {/* <link href=".contact">Contact</link> */}

@@ -35,7 +35,8 @@ const Contact =()=>{
                     <br/>
                 <input type="radio" name="interest" value="I'm ready, sign me up!"/><label>I'm ready, sign me up!</label>
                 <br/>
-                <input type="radio" name="interest" value="Love to hear More"/><label>Love to hear more!</label></label><br/>
+                <input type="radio" name="interest" value="Love to hear More"
+                className="radiobtn"/><label>Love to hear more!</label></label><br/>
                 <label>Message</label>
                 <textarea name="message"/>
                 <input type="submit" value="Send" className="submit"/>
