@@ -7,15 +7,15 @@ import {faBars} from "@fortawesome/free-solid-svg-icons"
 
 const Nav=()=>{
     return(
-        <div >
-           <FontAwesomeIcon icon={faBars} className="scrolling"/>
-            <ul className="Navbar">
+        <div className="Navbar">
+           <FontAwesomeIcon icon={faBars} className="hamburger"/>
+            <ul className="nav-links">
                 <li>
                     <NavLink to="/">Home</NavLink>
            
                 </li>
                 <li>
-                    <button href=".hero">Register Now</button>
+                   <a href="#contact-form"><button >Register Now</button></a>
                 </li>
                 <li>
                     {/* <link href=".contact">Contact</link> */}
